@@ -1,6 +1,6 @@
 ---
-title: React Library Introduction
-description: "Build amazing forms in React"
+title: Platform Introduction
+description: "Spin up forms in minutes. Pipe your data exactly where you need it. Maximize your results with juicy analytics."
 hide_table_of_contents: true
 ---
 

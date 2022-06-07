@@ -37,7 +37,7 @@ const sidebars = {
         type: "generated-index",
       },
       label: "React Library",
-      items: ["libraries/react/introduction"],
+      items: ["libraries/react/introduction", "libraries/react/example"],
     },
   ],
 };
