@@ -58,14 +58,14 @@ const config = {
       },
       navbar: {
         logo: {
-          alt: "SnoopForms",
+          alt: "snoopForms",
           src: "img/logo.svg",
           srcDark: "img/logo-dark.svg",
         },
         items: [
           {
             type: "doc",
-            docId: "introduction",
+            docId: "what-is-snoopforms",
             position: "left",
             label: "Guides",
           },

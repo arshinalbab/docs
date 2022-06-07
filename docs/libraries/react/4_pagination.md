@@ -1,10 +1,32 @@
 ---
-title: Example
-description: "Example React Page"
+title: Pagination
+description: "Single page and multi-page forms."
 hide_table_of_contents: true
 ---
 
-# Example
+snoopForms makes it very easy to build Typeform-style forms (one question per page) as well as longer, more complex forms on one page.
+
+To add a new page to your form, simply import `snoopPage` from the library and wrap the question into a `<snoopPage>` tag, like so:
+
+### Importing
+
+```jsx
+import { SnoopForm, SnoopElement, SnoopPage } from "@snoopforms/react";
+```
+
+### Adding pages
+
+```jsx
+      <SnoopPage name="first">
+        <SnoopElement>
+      </SnoopPage>
+
+      <SnoopPage name="second">
+        <SnoopElement>
+      </SnoopPage>
+```
+
+### Full example
 
 ```jsx
 import React from "react";
@@ -17,7 +39,7 @@ export default function Example({}) {
       protocol="http"
       className="w-full space-y-6"
       onSubmit={({ submission, schema }) => {
-        // do something with the data additional to sending to SnoopForms
+        // do something with the data additional to sending to snoopForms
       }}
     >
       <SnoopPage name="first">
