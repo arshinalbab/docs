@@ -2,6 +2,8 @@
 
 snoopForms Docs for snoopForms platform & form libraries built using [Docusaurus 2](https://docusaurus.io/).
 
+You can access the docs at [docs.snoopforms.com](https://docs.snoopforms.com).
+
 ### Installation
 
 ```
