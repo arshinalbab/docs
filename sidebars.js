@@ -21,23 +21,37 @@ const sidebars = {
   snoopFormsSidebar: [
     {
       type: "doc",
-      id: "introduction",
+      id: "what-is-snoopforms",
     },
     {
       type: "category",
       link: {
         type: "generated-index",
       },
-      label: "Platform",
-      items: ["platform/introduction"],
+      label: "snoopPlatform",
+      items: [
+        "platform/snoopPlatform",
+        "platform/installation",
+        "platform/deployment",
+      ],
     },
     {
       type: "category",
       link: {
         type: "generated-index",
       },
-      label: "React Library",
-      items: ["libraries/react/introduction", "libraries/react/example"],
+      label: "snoopReact",
+      items: [
+        "libraries/react/whyReact",
+        "libraries/react/installation",
+        "libraries/react/introduction",
+        "libraries/react/inputs",
+        "libraries/react/pagination",
+      ],
+    },
+    {
+      type: "doc",
+      id: "contribute",
     },
   ],
 };
