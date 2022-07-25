@@ -4,7 +4,7 @@ description: "Build forms in React fast & reliably"
 hide_table_of_contents: true
 ---
 
-# snoopReact (snoopForms React Library)
+# snoopForms React Library
 
 snoopReact is one of currently two ways to create forms (the other one is a No-Code builder which is part of the [snoopHub](/category/snoopHub))
 
