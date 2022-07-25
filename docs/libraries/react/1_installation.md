@@ -1,10 +1,10 @@
 ---
 title: Getting started
-description: "Getting the snoopForms React Lib up and running"
+description: "Getting snoopReact up and running"
 hide_table_of_contents: true
 ---
 
-Getting the snoopForms React Library up and running with Node Package Manager:
+Getting the snoopReact Library up and running with Node Package Manager:
 
 ```jsx
 npm install @snoopforms/react

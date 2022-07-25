@@ -1,10 +1,10 @@
 ---
 title: Deployment
-description: "Deploy your snoopPlatform to the cloud."
+description: "Deploy your snoopHub to the cloud."
 hide_table_of_contents: true
 ---
 
-The easiest way to deploy snoopPlatform on your on server is using Docker.
+The easiest way to deploy snoopHub on your server is Docker.
 
 ### Requirements
 
@@ -26,7 +26,7 @@ cp .env.example .env && nano .env
 
 ### 3. Run Docker
 
-Start the docker-compose process to build and spin up the snoopPlatform container as well as the postgres database.
+Start the docker-compose process to build and spin up the snoopHub container as well as the postgres database.
 
 ```
 docker-compose up -d

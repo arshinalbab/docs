@@ -1,12 +1,10 @@
 ---
 title: Getting started
-description: "Getting the snoopPlatform up and running on localhost"
+description: "Getting the snoopHub up and running on localhost"
 hide_table_of_contents: true
 ---
 
 Getting the snoopForms React Library up and running on localhost is quick and easy:
-
-> :warning: **Note**: This repository is still in an early stage of development. We love the open source community and want to show what we are working on early. We will update this readme with more information once it is safe to use. Until then, feel free to share your thoughts, contact us, and contribute if you'd like.
 
 ## Run it locally
 

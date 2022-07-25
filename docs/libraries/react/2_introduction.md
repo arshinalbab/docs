@@ -1,12 +1,12 @@
 ---
 title: Introduction
-description: "How the snoopForms React Lib works"
+description: "How snoopReact works"
 hide_table_of_contents: true
 ---
 
 # Introduction
 
-snoopForm’s inputs work like HTML inputs - with lots of useful form features backed in. Much like how HTML’s `<input>` tag works with types (i.e., `type="text"` or `type="checkbox"`), the `<snoopForm>` tag does the same. Instead of having to deal with `<textarea>` or `<select>`, all types of input you expect from a form tool are covered with the `<snoopForm>` tag. This approach makes building and maintaining forms easy, fast and reliable.
+snoopReact’s inputs work like HTML inputs - with lots of useful form features backed in. Much like how HTML’s `<input>` tag works with types (i.e., `type="text"` or `type="checkbox"`), the `<snoopForm>` tag does the same. Instead of having to deal with `<textarea>` or `<select>`, all types of input you expect from a form tool are covered with the `<snoopForm>` tag. This approach makes building and maintaining forms easy, fast and reliable.
 
 > This approach to form building is inspired by **FromKit's innovative framework** for building forms. [Read an introduction to it here,](https://dev.to/justinschroeder/introducing-formkit-a-vue-3-form-building-framework-53ji) it's definitely worth your time 🤓
 
@@ -72,4 +72,4 @@ export default function Example({}) {
 }
 ```
 
-Learn how to build forms on the next page.
+More on how to build forms on the next page.

@@ -4,7 +4,7 @@ description: "Single page and multi-page forms."
 hide_table_of_contents: true
 ---
 
-snoopForms makes it very easy to build Typeform-style forms (one question per page) as well as longer, more complex forms on one page.
+snoopReact makes it very easy to build Typeform-style forms (one question per page) as well as longer, more complex forms on one page.
 
 To add a new page to your form, simply import `snoopPage` from the library and wrap the question into a `<snoopPage>` tag, like so:
 
@@ -15,6 +15,8 @@ import { SnoopForm, SnoopElement, SnoopPage } from "@snoopforms/react";
 ```
 
 ### Adding pages
+
+Make sure to give each of the pages a unique name:
 
 ```jsx
       <SnoopPage name="first">

@@ -1,14 +1,14 @@
 ---
-title: What is snoopPlatform?
+title: What is snoopHub?
 description: "Spin up forms in minutes. Pipe your data exactly where you need it. Maximize your results with juicy analytics."
 hide_table_of_contents: true
 ---
 
-# snoopForms Platform
+# snoopHub
 
-The snoopForms platform offers it all. Pre-built components and state-management makes spinning up forms fast and reliable. With built-in analytics you get the most out of your traffic. The submission management and data pipelines give you and your team easy access to and full control over your data.
+The snoopHub offers it all. No-code your forms or receive data from forms built with [snoopReact](/) With built-in analytics you get the most out of your traffic. The submission management and data pipelines give you and your team easy access to and full control over your data.
 
-![snoopForm Explainer](./img/platform-explainer.svg)
+![snoopHub Explainer](./img/platform-explainer.svg)
 
 ## Feature Overview
 
