@@ -28,12 +28,8 @@ const sidebars = {
       link: {
         type: "generated-index",
       },
-      label: "snoopPlatform",
-      items: [
-        "platform/snoopPlatform",
-        "platform/installation",
-        "platform/deployment",
-      ],
+      label: "snoopHub",
+      items: ["hub/snoopHub", "hub/installation", "hub/deployment"],
     },
     {
       type: "category",

@@ -10,17 +10,25 @@ import Link from '@docusaurus/Link'
 import ReactLogo from '@site/static/img/react-icon.svg'
 import SnoopIcon from '@site/static/img/icon.svg'
 
-> :warning: **snoopForms is still incomplete and not yet stable.** As an open-source project we want to share the process of building it in public. :warning:
+snoopForms is the Open-Source Typeform Alternative. Spin up forms in minutes using our form libraries or no-code form editor. Submissions get saved and analysed in our data hub. From there you can pipe your data exactly where you need it.
+
+---
+
+> ℹ️ **snoopForms is work-in-progress not yet stable.** As an open-source project we want to share the process of building it in public. ℹ️
 >
 > Follow the progress at [@snoopForms](https://twitter.com/snoopforms) or [join our Discord to provide feedback.](https://discord.gg/8rwDbyy2Me)
 
-# Introduction
+---
 
-snoopForms is the Open-Source Typeform Alternative. Spin up forms in minutes using our form libraries or no-code form editor. Submissions get saved and analysed in our data platform. From there you can pipe your data exactly where you need it.
+# snoopForms vs. snoopHub vs. snoopReact ? 💡
+
+- **snoopForms** = the whole platform and set of tools
+- **snoopHub** = No-code builder + Submission Hub + Analytics Dashboard
+- **snoopReact** = React Lib to build forms
 
 ## Getting started
 
-There are two ways to use snoopForms: Self-hosted and hosted (coming soon). Check out our [github repository](https://github.com/snoopForms/snoopforms) on more information how to deploy the platform yourself.
+There are two ways to use snoopForms: Self-hosted and [hosted](https://app.snoopforms.com).
 
 ### Built With
 
@@ -32,17 +40,17 @@ There are two ways to use snoopForms: Self-hosted and hosted (coming soon). Chec
 
 # Explore snoopForms
 
-To take full advantage of this documentation please select your path. Do you want to learn more about our React-based form library with easy connection to the snoopForm platform, or the snoopForm platform itself?
+To take full advantage of this documentation please select your path. Do you want to learn more about our React-based form library with easy connection to the snoopHub, or the snoopHub itself?
 
 <div class="container" style={{ padding: 0 }}>
   <div class="row is-multiline">
      <div class="col col--6">
-        <Link class="card" to="/platform/snoopPlatform">
+        <Link class="card" to="/hub/snoopHub">
           <div class="card__body" style={{ display: 'flex', gap: 30, alignItems: 'center' }}>
               <SnoopIcon width="40" alt="React" style={{ display: 'block', maxHeight: 40 }} />
                 <div>
-                    <h4>Platform</h4>
-                    <p>Learn how to deploy and use the full platform and their APIs.</p>
+                    <h4>snoopHub</h4>
+                    <p>Learn how to deploy and use the full snoopHub and their APIs.</p>
                 </div>
           </div>
         </Link>
