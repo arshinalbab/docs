@@ -22,6 +22,7 @@ export default function App() {
         <SnoopElement type="text" name="name" label="Your name" required />
         <SnoopElement type="textarea" name="about" label="About you" required />
         /* Add more elements here if you need */
+        <SnoopElement type="submit" />
       </SnoopPage>
     </SnoopForm>
   );
@@ -30,14 +31,34 @@ export default function App() {
 
 # Props & Attributes
 
-| Prop        | Type                 | Required | Default | Description                                                                                                                    |
-| ----------- | -------------------- | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| type        | string               | `yes`    | ""      | SnoopForm Input-Type, e.g. `text` or `radio`. See the next pages for details on all available input types in snoopForms.       |
-| name        | string               | `yes`    | ""      | Name of your element for data handling. The user input gets saved under this key. Every element name in a page must be unique. |
-| label       | string               | `no`     | ""      | The label / question of the element the user sees above the input field.                                                       |
-| className   | string               | `no`     | ""      | Give your own CSS classes to the snoopPage component. This overwrites existing default styles.                                 |
-| required    | boolean              | `no`     | false   | (currently not supported in `radio` and `checkbox`) Sets if the input / question is required to be filled out by the user      |
-| icon        | ReactNode            | `no`     | ""      | (not supported by all elements) Adds an icon to the left side of the input field                                               |
-| placeholder | string               | `no`     | ""      | (not supported by all elements) Sets the placeholder-text inside the input field                                               |
-| options     | string[] \| Option[] | `no`     | ""      | (only `radio` and `checkbox`) Sets the list of options/choices available to the user                                           |
-| rows        | number               | `no`     | 2       | (only `textarea`) sets the number of rows / height of the textarea SnoopElement                                                |
+| Prop        | Type                 | Required | Default | Description                                                                                                                                          |
+| ----------- | -------------------- | -------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type        | string               | `yes`    | ""      | SnoopForm Input-Type, e.g. `text` or `radio`. See the next pages for details on all available input types in snoopForms.                             |
+| name        | string               | `no`     | ""      | (except for `submit`) Name of your element for data handling. The user input gets saved under this key. Every element name in a page must be unique. |
+| label       | string               | `no`     | ""      | The label / question of the element the user sees above the input field.                                                                             |
+| className   | string               | `no`     | ""      | Give your own CSS classes to the snoopPage component. This overwrites existing default styles.                                                       |
+| required    | boolean              | `no`     | false   | (currently not supported in `radio` and `checkbox`) Sets if the input / question is required to be filled out by the user                            |
+| icon        | ReactNode            | `no`     | ""      | (not supported by all elements) Adds an icon to the left side of the input field                                                                     |
+| placeholder | string               | `no`     | ""      | (not supported by all elements) Sets the placeholder-text inside the input field                                                                     |
+| options     | string[] \| Option[] | `no`     | ""      | (only `radio` and `checkbox`) Sets the list of options/choices available to the user                                                                 |
+| rows        | number               | `no`     | 2       | (only `textarea`) sets the number of rows / height of the textarea SnoopElement                                                                      |
+
+# Available Elements
+
+`text`: Simple text input
+
+`textarea`: Textarea input
+
+`number`: text input with autocompletion and validation for numbers
+
+`email`: text input with autocompletion and validation for email addresses
+
+`website`: text input with autocompletion and validation for website addresses
+
+`phone`: text input with autocompletion and validation for phone numbers
+
+`checkbox`: checkboxes for multiple choice
+
+`radio`: radio-buttons for single choice
+
+`submit`: submit-button for submitting page and going to the next one
