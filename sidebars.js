@@ -41,7 +41,19 @@ const sidebars = {
         "libraries/react/whyReact",
         "libraries/react/installation",
         "libraries/react/introduction",
-        "libraries/react/inputs",
+        {
+          type: "category",
+          label: "Components",
+          items: [
+            "libraries/react/components/snoopForm",
+            "libraries/react/components/snoopPage",
+            {
+              type: "category",
+              label: "SnoopElement",
+              items: ["libraries/react/components/snoopElement/introduction"],
+            },
+          ],
+        },
         "libraries/react/pagination",
       ],
     },

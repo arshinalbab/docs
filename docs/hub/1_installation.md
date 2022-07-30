@@ -32,7 +32,7 @@ yarn install
 
 ### 3. Creating an .env file
 
-Create a `.env` file based on `.env.example` and change it according to your setup. Make sure the `DATABASE_URL` variable is set correctly according to your local database.
+Create a `.env` file based on `.env.example` and change it according to your setup. Make sure the `DATABASE_URL` variable is set correctly according to your local database. The SMTP-credentials are essential for verification emails to work during user signup.
 
 ```
 cp .env.example .env
@@ -58,7 +58,7 @@ Finally, start the your local development server using yarn:
 yarn dev
 ```
 
-You can now access the app on [https://localhost:3000](https://localhost:3000)
+You can now access the app on [https://localhost:3000](https://localhost:3000). You will be automatically redirected to the login. To use your local installation of snoopForms, create a new account.
 
 ### Doesn't work? 🙃
 

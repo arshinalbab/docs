@@ -12,4 +12,4 @@ npm install @snoopforms/react
 
 ### Doesn't work? 🙃
 
-If you have questions or struggle setting up your instance locally [just join our Discord](https://discord.gg/8rwDbyy2Me) or [send a DM](https://twitter.com/snoopforms) - we are happy to help 🤍
+If you have questions or struggle setting up your instance locally [just join our Discord](https://discord.gg/8rwDbyy2Me) or [create a new issue on Github](https://github.com/snoopForms/snoopforms-react) - we are happy to help 🤍

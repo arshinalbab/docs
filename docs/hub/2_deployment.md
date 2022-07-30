@@ -18,7 +18,7 @@ git clone https://github.com/snoopForms/snoopforms.git && cd snoopforms
 
 ### 2. Create .env file
 
-Create a `.env` file based on `.env.example` and change it according to your setup.
+Create a `.env` file based on `.env.example` and change it according to your setup. The SMTP-credentials are essential for verification emails to work during user signup.
 
 ```
 cp .env.example .env && nano .env
@@ -32,8 +32,8 @@ Start the docker-compose process to build and spin up the snoopHub container as 
 docker-compose up -d
 ```
 
-You app should be up and running now wherever you deployed it.
+You app should be up and running now wherever you deployed it. When you open up snoopHub in the browser you will be automatically redirected to the login. To use your installation of snoopHub, create a new account.
 
 ### Doesn't work? 🙃
 
-If you have questions or struggle setting up your instance locally [just join our Discord](https://discord.gg/8rwDbyy2Me) or [send a DM](https://twitter.com/snoopforms) - we are happy to help 🤍
+If you have questions or struggle setting up your instance locally [just join our Discord](https://discord.gg/8rwDbyy2Me) or [create a new issue on Github](https://github.com/snoopForms/snoopforms-react) - we are happy to help 🤍
