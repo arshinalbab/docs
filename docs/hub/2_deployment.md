@@ -1,10 +1,10 @@
 ---
 title: Deployment
-description: "Deploy your snoopHub to the cloud."
+description: "Deploy snoopForms to the cloud."
 hide_table_of_contents: true
 ---
 
-The easiest way to deploy snoopHub on your server is Docker.
+The easiest way to deploy snoopForms on your server is Docker.
 
 ### Requirements
 
@@ -18,21 +18,27 @@ git clone https://github.com/snoopForms/snoopforms.git && cd snoopforms
 
 ### 2. Create .env file
 
-Create a `.env` file based on `.env.example` and change it according to your setup. The SMTP-credentials are essential for verification emails to work during user signup.
+Create a `.env` file based on `.env.example` and change it according to your setup.
 
 ```
 cp .env.example .env && nano .env
 ```
 
+| Required Variables | Description                                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------------------------------- |
+| NEXTAUTH_SECRET    | Set this to a unique string that you don't share with others                                                  |
+| NEXTAUTH_URL       | Set this to the address your users use to reach your instance of snoopforms, e.g. `https://forms.example.com` |
+| DATABASE_URL       | The full database URL where snoopForms can reach your PostgreSQL instance & database                          |
+
 ### 3. Run Docker
 
-Start the docker-compose process to build and spin up the snoopHub container as well as the postgres database.
+Start the docker-compose process to build and spin up the snoopForms container as well as the postgres database.
 
 ```
 docker-compose up -d
 ```
 
-You app should be up and running now wherever you deployed it. When you open up snoopHub in the browser you will be automatically redirected to the login. To use your installation of snoopHub, create a new account.
+You app should be up and running now wherever you deployed it. When you open up snoopForms in the browser you will be automatically redirected to the login. To use your installation of snoopForms, create a new account.
 
 ### Doesn't work? 🙃
 

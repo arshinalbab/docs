@@ -28,15 +28,20 @@ const sidebars = {
       link: {
         type: "generated-index",
       },
-      label: "snoopHub",
-      items: ["hub/snoopHub", "hub/installation", "hub/deployment"],
+      label: "snoopForms",
+      items: [
+        "hub/snoopForms",
+        "hub/installation",
+        "hub/deployment",
+        "hub/configuration",
+      ],
     },
     {
       type: "category",
       link: {
         type: "generated-index",
       },
-      label: "snoopReact",
+      label: "React Library",
       items: [
         "libraries/react/whyReact",
         "libraries/react/installation",

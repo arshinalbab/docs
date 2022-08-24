@@ -32,11 +32,17 @@ yarn install
 
 ### 3. Creating an .env file
 
-Create a `.env` file based on `.env.example` and change it according to your setup. Make sure the `DATABASE_URL` variable is set correctly according to your local database. The SMTP-credentials are essential for verification emails to work during user signup.
+Create a `.env` file based on `.env.example` and change it according to your setup. Make sure the `DATABASE_URL` variable is set correctly according to your local database.
 
 ```
 cp .env.example .env
 ```
+
+| Required Variables | Description                                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------------------------------- |
+| NEXTAUTH_SECRET    | Set this to a unique string that you don't share with others                                                  |
+| NEXTAUTH_URL       | Set this to the address your users use to reach your instance of snoopforms, e.g. `https://forms.example.com` |
+| DATABASE_URL       | The full database URL where snoopForms can reach your PostgreSQL instance & database                          |
 
 ### 4. Start PostgreSQL
 
