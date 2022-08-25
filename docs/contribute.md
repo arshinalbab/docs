@@ -1,6 +1,6 @@
 ---
 title: Contribute 🤍
-description: "Deploy your snoopHub to the cloud."
+description: "Deploy snoopForms to the cloud."
 hide_table_of_contents: true
 ---
 

@@ -20,12 +20,6 @@ snoopForms is the Open-Source Typeform Alternative. Spin up forms in minutes usi
 
 ---
 
-# snoopForms vs. snoopHub vs. snoopReact ? 💡
-
-- **snoopForms** = the whole platform and set of tools
-- **snoopHub** = No-code builder + Submission Hub + Analytics Dashboard
-- **snoopReact** = React Lib to build forms
-
 ## Getting started
 
 There are two ways to use snoopForms: Self-hosted and [hosted](https://app.snoopforms.com).
@@ -45,7 +39,7 @@ To take full advantage of this documentation please select your path. Do you wan
 <div class="container" style={{ padding: 0 }}>
   <div class="row is-multiline">
      <div class="col col--6">
-        <Link class="card" to="/hub/snoopHub">
+        <Link class="card" to="/hub/snoopForms">
           <div class="card__body" style={{ display: 'flex', gap: 30, alignItems: 'center' }}>
               <SnoopIcon width="40" alt="React" style={{ display: 'block', maxHeight: 40 }} />
                 <div>

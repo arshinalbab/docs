@@ -47,6 +47,13 @@ cp .env.example .env
 ### 4. Start PostgreSQL
 
 Make sure the PostgreSQL server is running on your system. Depending on your operating system and PostgreSQL installation method, you may check this differently, but you will need a running database instance for the next step.
+A quick and dirty instance can be spun up via:
+
+```
+docker run --name snoopformsDB -p 5432:5432 -e POSTGRES_USER=snoopforms -e POSTGRES_PASSWORD=password -e POSTGRES_DB=snoopforms -d postgres
+```
+
+(If you already have a PostgreSQL database running, but want to use this one for testing, you can also change port 5432 to another free port on your system)
 
 ### 5. Setup database with Prisma
 
